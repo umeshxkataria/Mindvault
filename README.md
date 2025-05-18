@@ -1,7 +1,7 @@
 # Mindvault
 # 🧠 MindVault — Journal Your Emotions, Track Your Moods
 
-![MindVault Banner](https://drive.google.com/file/d/1FQZA25uFsRlR8fyG7Qy51yLz-AftGDVV/view?usp=sharing) 
+![MindVault Banner](https://ibb.co/6R99mSgT) 
 
 MindVault is a minimalistic journaling web app that lets you capture your thoughts, track your mood, and gain AI-powered reflections over time. Designed with mental wellness in mind, it combines simplicity with emotional intelligence.
 
@@ -12,7 +12,6 @@ MindVault is a minimalistic journaling web app that lets you capture your though
 
 ## ✨ Features
 
-- 🔐 **Google Auth** – Sign in securely with Google to access your personal vault.
 - 📝 **Thought Logging** – Journal freely and let MindVault analyze your tone.
 - 🎭 **Mood Detection** – Auto-categorizes your mood using sentiment analysis & keyword mapping.
 - 🌈 **Visual Gradients** – Dynamic mood-based UI gradients to reflect your inner world.
@@ -45,14 +44,14 @@ mindvault/
 🔧 Setup Instructions
 Clone the Repository
 
-bash
+**#bash**
 Copy
 Edit
 git clone https://github.com/yourusername/mindvault.git
 cd mindvault
 Install Dependencies
 
-bash
+**#bash**
 Copy
 Edit
 npm install
