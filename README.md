@@ -1,8 +1,6 @@
 # Mindvault
 # 🧠 MindVault — Journal Your Emotions, Track Your Moods
 
-![MindVault Banner](https://ibb.co/6R99mSgT) 
-
 MindVault is a minimalistic journaling web app that lets you capture your thoughts, track your mood, and gain AI-powered reflections over time. Designed with mental wellness in mind, it combines simplicity with emotional intelligence.
 
 ## 🔗 Live Demo
@@ -79,18 +77,12 @@ npm run dev
 Mental health is often overlooked in our fast-paced lives. MindVault was built during the CodeCircuit Hackathon to create a safe, personal, and insightful space for self-reflection—no noise, no distractions, just you and your thoughts.
 
 📌 Roadmap
- Google Authentication
-
+ Google Authentication 
  Thought journaling with mood detection
-
  Mood-based gradients
-
  AI-powered reflections
-
  Mood analytics dashboard
-
  Mobile push reminders
-
  Export thoughts as PDF
 
 🤝 Contributing
@@ -98,20 +90,4 @@ Contributions are welcome! Open issues or PRs for features, bugs, or enhancement
 
 🧑‍💻 Author
 Made with ❤️ by Umesh
-
 “Your thoughts deserve a vault — one that listens, understands, and grows with you.”
-
-📜 License
-MIT License
-
-markdown
-Copy
-Edit
-
----
-
-Let me know if you’d like:
-- a **short version** for Devpost or Twitter/X
-- a **banner image or logo** designed for the README
-- an **Open Graph meta preview** for sharing links  
-- or help publishing it to **Product Hunt**, **Hashnode**, or **GitHub Pages**.
