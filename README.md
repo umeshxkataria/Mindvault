@@ -40,57 +40,78 @@ mindvault/
 ├── firebase.js         # Firebase initialization
 └── .env.local          # Environment variables (API keys, etc.)
 
+---
 
-##🔧 Setup Instructions
 
-Clone the Repository
+# 🧠 MindVault
 
-**#bash**
-Copy
-Edit
+A journal + mood tracker web app powered by real-time AI reflections — built with ❤️ during the CodeCircuit Hackathon.
+
+---
+
+## 🔧 Setup Instructions
+
+### 🌀 Clone the Repository
+
+```bash
 git clone https://github.com/yourusername/mindvault.git
 cd mindvault
-Install Dependencies
+```
 
-**#bash**
-Copy
-Edit
+### 📦 Install Dependencies
+
+```bash
 npm install
-Configure Firebase
+```
 
-Create a Firebase project.
+### 🔐 Configure Firebase
 
-Enable Google Auth and Firestore.
+1. Create a Firebase project at [Firebase Console](https://console.firebase.google.com/).
+2. Enable **Google Authentication** and **Firestore Database**.
+3. Create a `.env.local` file in the root directory and add your Firebase credentials:
 
-Add your credentials to .env.local:
+```ini
+NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_auth_domain
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+```
 
-ini
-Copy
-Edit
-NEXT_PUBLIC_FIREBASE_API_KEY=xxx
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=xxx
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=xxx
-Run Locally
+### 🚀 Run Locally
 
-bash
-Copy
-Edit
+```bash
 npm run dev
-🤯 What Inspired This?
-Mental health is often overlooked in our fast-paced lives. MindVault was built during the CodeCircuit Hackathon to create a safe, personal, and insightful space for self-reflection—no noise, no distractions, just you and your thoughts.
+```
 
-📌 Roadmap
- Google Authentication 
- Thought journaling with mood detection
- Mood-based gradients
- AI-powered reflections
- Mood analytics dashboard
- Mobile push reminders
- Export thoughts as PDF
+---
 
-🤝 Contributing
-Contributions are welcome! Open issues or PRs for features, bugs, or enhancements.
+## 🤯 What Inspired This?
 
-🧑‍💻 Author
-Made with ❤️ by Umesh
-“Your thoughts deserve a vault — one that listens, understands, and grows with you.”
+Mental health is often overlooked in our fast-paced lives.  
+**MindVault** was built during the **CodeCircuit Hackathon** to create a safe, personal, and insightful space for self-reflection.  
+> No noise. No distractions. Just you and your thoughts.
+
+---
+
+## 📌 Roadmap
+
+- ✅ Google Authentication  
+- ✅ Thought journaling with mood detection  
+- ✅ Mood-based gradients  
+- ✅ AI-powered reflections  
+- ✅ Mood analytics dashboard  
+- ⏳ Mobile push reminders  
+- ⏳ Export thoughts as PDF  
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!  
+Feel free to open issues or PRs for new features, bug fixes, or enhancements.
+
+---
+
+## 🧑‍💻 Author
+
+Made with ❤️ by **Umesh**  
+“*Your thoughts deserve a vault — one that listens, understands, and grows with you.*”
