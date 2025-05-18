@@ -38,8 +38,8 @@ mindvault/
 ├── public/             # Static assets
 ├── styles/             # Tailwind & global styles
 ├── firebase.js         # Firebase initialization
-└── .env.local          # Environment variables (API keys, etc.)
-
+└── .env.local          # Environment variables (API keys, etc.) 
+```
 ---
 
 
@@ -64,17 +64,6 @@ cd mindvault
 npm install
 ```
 
-### 🔐 Configure Firebase
-
-1. Create a Firebase project at [Firebase Console](https://console.firebase.google.com/).
-2. Enable **Google Authentication** and **Firestore Database**.
-3. Create a `.env.local` file in the root directory and add your Firebase credentials:
-
-```ini
-NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_auth_domain
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
-```
 
 ### 🚀 Run Locally
 
