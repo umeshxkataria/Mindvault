@@ -39,7 +39,10 @@ mindvault/
 ├── styles/             # Tailwind & global styles
 ├── firebase.js         # Firebase initialization
 └── .env.local          # Environment variables (API keys, etc.)
-🔧 Setup Instructions
+
+
+##🔧 Setup Instructions
+
 Clone the Repository
 
 **#bash**
